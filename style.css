@@ -1,0 +1,227 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  border: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.orange-color {
+  color: #fc8112;
+}
+.search-input input {
+  padding: 5px;
+  width: 90%;
+}
+.search-input {
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(206, 204, 204);
+}
+
+header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div > * {
+  padding-right: 5px;
+}
+
+header div hr {
+  border: 1px solid black;
+}
+
+.banner {
+  display: flex;
+  background: linear-gradient(
+    0deg,
+    rgb(201, 188, 244) 0%,
+    rgb(255, 255, 255) 95.83%
+  );
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.banner .banner-left {
+  width: 15%;
+}
+.banner-left {
+  padding-left: 10%;
+}
+.banner-right {
+  padding-right: 10%;
+}
+.banner .banner-left p {
+  font-size: 18px;
+}
+
+.header-hr {
+  border-bottom: 0.5px solid rgb(195, 189, 189);
+}
+
+.fa-user-circle {
+  font-size: 50px;
+}
+
+.food-content {
+  padding: 50px 10%;
+}
+
+.carousel-div {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-div:first-child {
+  font-family: "Basis Grotesque Pro";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+.carousel-div .fa-arrow {
+  padding: 6px;
+  border-radius: 50px;
+  background-color: rgb(214, 214, 217);
+  margin-left: 10px;
+}
+.carousel-div .fa-arrow:first-child {
+  background: rgb(240 240 243);
+}
+
+.food-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.food-list {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.food-list img {
+  border-radius: 10px 10px 0px 0px;
+}
+.food-list-offer {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  border: red;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgb(208, 205, 205);
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.fa-star {
+  background-color: rgb(20 135 64);
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 13px;
+  color: white;
+}
+.food-name,
+.food-shop {
+  font-size: 20px;
+  color: gray;
+}
+.show-more {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.show-more p {
+  width: 200px;
+  padding: 10px 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-color: gray;
+}
+
+.culture-food div {
+  padding: 20px;
+  border: 1.5px solid rgba(2, 6, 12, 0.1);
+  border-radius: 20px;
+}
+.culture-food h1,
+.localities h1,
+.restaurant h1 {
+  padding: 20px 0px;
+}
+
+.culture-food div h1 {
+  padding: 10px 0px;
+}
+
+.culture-food div span {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: -0.1px;
+  color: rgb(241, 87, 0);
+}
+
+.localities-list,
+.restaurant-list {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.localities-list div,
+.restaurant-list div {
+  border: 1.5px solid rgba(2, 6, 12, 0.1);
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin: 0px 20px 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.localities-list div div span,
+.restaurant-list div div span {
+  font-family: "Basis Grotesque Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+}
+.appinstallon {
+  display: flex;
+  justify-content: center;
+  background: rgb(240, 240, 245);
+  padding: 20px;
+}
+.appinstallon div {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  font-size: 18px;
+}
